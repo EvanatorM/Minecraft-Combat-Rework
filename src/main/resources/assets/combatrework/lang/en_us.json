@@ -1,0 +1,13 @@
+{
+  "itemGroup.combatrework": "Example Mod Tab",
+  "block.combatrework.example_block": "Example Block",
+  "item.combatrework.example_item": "Example Item",
+
+  "combatrework.configuration.title": "Combat Rework Configs",
+  "combatrework.configuration.section.combatrework.common.toml": "Combat Rework Configs",
+  "combatrework.configuration.section.combatrework.common.toml.title": "Combat Rework Configs",
+  "combatrework.configuration.items": "Item List",
+  "combatrework.configuration.logDirtBlock": "Log Dirt Block",
+  "combatrework.configuration.magicNumberIntroduction": "Magic Number Text",
+  "combatrework.configuration.magicNumber": "Magic Number"
+}
