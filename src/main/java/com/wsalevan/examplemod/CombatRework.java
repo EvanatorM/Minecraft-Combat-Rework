@@ -103,7 +103,7 @@ public class CombatRework {
             // Get resistance values
             int resLevel = getResistanceLevel(target);
 
-            LOGGER.info("Base damage: " + baseDamage + ", Armor value: " + armor + ", Toughness: " + toughness + ", Prot levels: " + protLevels + ", Res level: " + resLevel);
+            //LOGGER.info("Base damage: " + baseDamage + ", Armor value: " + armor + ", Toughness: " + toughness + ", Prot levels: " + protLevels + ", Res level: " + resLevel);
 
             // Apply formula
             float armorMultiplier = 1 - (0.9f * (armor / (armor + 25)));
@@ -113,7 +113,7 @@ public class CombatRework {
 
             float result = baseDamage * armorMultiplier * toughnessMultiplier * protMultiplier * resMultiplier;
 
-            LOGGER.info("Base damage: " + baseDamage + ", Armor Multiplier: " +  armorMultiplier + ", Toughness Multiplier: " + toughnessMultiplier + ", Prot Multiplier: " + protMultiplier + ", Res Multiplier: " + resMultiplier + ", Final Damage: " + result);
+            //LOGGER.info("Base damage: " + baseDamage + ", Armor Multiplier: " +  armorMultiplier + ", Toughness Multiplier: " + toughnessMultiplier + ", Prot Multiplier: " + protMultiplier + ", Res Multiplier: " + resMultiplier + ", Final Damage: " + result);
             e.setAmount(result);
         }
     }
